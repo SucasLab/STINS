@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>STINS: Structured Action Priors for Symmetry-Aware Reinforcement Learning in Legged Locomotion</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<style>
+  .section-divider {
+    border: none;
+    height: 4px;
+    background-color: #e0e0e0;
+    margin: 5rem 0 3rem 0;
+  }
+
+  .quadruped-section {
+    margin-top: 2rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    border-top: 4px solid #e0e0e0;
+    border-bottom: 4px solid #e0e0e0;
+  }
+
+  .paper-caption {
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: left;
+    color: #000;
+  }
+
+  .paper-caption strong {
+    font-weight: 800;
+  }
+
+  .paper-caption em {
+    font-style: italic;
+    
+  }
+  .submission-note {
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+}
+
+</style>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+          <!-- Title -->
+          <h1 class="title is-1 publication-title">
+            STINS: Structured Action Priors for Symmetry-Aware Reinforcement Learning in Legged Locomotion
+          </h1>
+
+          <!-- Submission note -->
+          <p class="submission-note">
+            * All author information is removed due to review policy reasons
+          </p>
+
+          <!-- Anonymous review note
+          <p class="review-note">
+            * All author information is removed due to review policy reasons
+          </p> -->
+<!-- 
+
+          <div class="publication-links">
+            <span class="link-block">
+              <a href="#" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Arxiv</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a class="external-link button is-normal is-rounded is-dark
+                        has-tooltip-bottom"
+                title="The code will be released upon acceptance of the paper.">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </span>
+          </div> -->
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+<!-- Image carousel -->
+<section class="hero is-small" style="margin-top: 3rem;">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+      <figure class="paper-figure">
+        <img src="static/images/framework.png" alt="Overview figure">
+        
+        <p class="has-text-left"
+          style="font-size:2rem;line-height:1.5;margin-top:1rem;margin-bottom: 2rem;hyphens: auto;">
+          Fig. 1:
+          <strong>Framework of STINS.</strong> STINS constructs a command-conditioned symmetry prior from paired flat-ground environments, applies
+          a morphology-induced action-distribution transformation, and incorporates the resulting prior as a KL reward for policy optimization. The
+          same principle applies to quadrupeds and humanoids by changing the joint mapping and the regularized propulsion-dominant joints.
+        </p>
+      </figure>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<style>
+#results-carousel img {
+  max-width: 100% !important;  
+  width: 100%;      
+  height: auto;            
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+  
+
+
+<!-- Results section
+<section class="hero is-small is-light quadruped-section">
+  <div class="container is-fullhd">
+
+
+    <h2 class="title is-2 has-text-left">Isaac Sim Simulation</h2>
+  
+    <div class="item" style="margin-bottom: 2rem;margin-top: 1rem;">
+      <video autoplay controls muted loop width="100%">
+        <source src="static/video/compare.mp4" type="video/mp4">
+      </video>
+      <p class="has-text-left" 
+        style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+        <strong>Simulation Results:</strong> We conduct comprehensive ablation studies to validate the necessity of both the feedback reshaping mechanism and the adaptive risk gain.
+        The performance of the Nominal HRL, Reward-penalized HRL and proposed EF-HRL are demonstrated in the video. 
+      </p>
+    </div>
+  </div>
+</section> -->
+
+
+
+<!-- Results section -->
+<section class="hero is-small is-light quadruped-section">
+  <div class="container is-fullhd">
+    <div class="container">
+
+    <h2 class="title is-2 has-text-left">Indoor Stability Experiments</h2> 
+        <div class="item">
+            <video autoplay controls muted loop width="100%">
+              <source src="static/videos/indoor.mp4" type="video/mp4">
+            </video>
+
+            <p class="has-text-left"
+            style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+              <strong>Indoor Stability Experiments.</strong> Containing (a) Indoor Standing Test for privilege-trained quadrupedal locomotion, 
+              (b) Air-mattress traversal test for pure proprioception-trained quadrupedal locomotion and (c) Indoor Standing Test for Humanoid locomotion.
+            </p>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Results section -->
+<section class="hero is-small" style="margin-top: 3rem;">
+  <div class="container is-fullhd">
+  <h2 class="title is-2 has-text-left"> Outdoor Multi-terrain Traversal Experiments</h2> 
+      <div class="item">
+            <div class="column">
+              <video autoplay controls muted loop width="100%">
+                <source src="static/videos/outdoor.mp4" type="video/mp4">
+              </video>
+            </div>
+          <p class="has-text-left"
+          style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;margin-bottom: 2rem;hyphens: auto;">
+          <strong>Outdoor multi-terrain traversal experiment.</strong> The SLR variants are deployed to traverse an outdoor garden route in both forward
+and backward directions. The route contains flat ground, grass-covered soil slopes, slots, and stairs, with a total trajectory length of over
+200m. Subfigure (d) shows the aerial-view trajectories completed by SLR-STINS, where the green trajectory denotes forward traversal and
+the yellow trajectory denotes backward traversal. In contrast, the other baselines fail to complete the full route 
+            </p>
+      </div>
+   </div>    
+  </div>
+  </div>
+</section>
+
+<!-- End Results section -->
+<style>
+.quadruped-section .carousel img {
+  max-width: 70%; 
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 8px; 
+}
+</style>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code> 
+        <!-- @article{zhang2026Fast,
+          title={Fast Integrated Planning and Control under Non-negligible Uncertainties},
+          author={Haodi Zhang, Jiaheng Lu, Jinya Su, Shihua Li and Wen-Hua Chen},
+          journal={arxiv},
+          year={2026},
+          volume={1},
+          number={1},
+          pages={1-10},
+        } -->
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
